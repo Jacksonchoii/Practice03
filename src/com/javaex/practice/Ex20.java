@@ -44,6 +44,9 @@ public class Ex20 {
 					break;
 					
 				}else if(finish=='n') {
+					System.out.println("=====================================");
+					System.out.println("\t[숫자맞추기게임 시작]");
+					System.out.println("=====================================");
 					continue;
 				}
 				
