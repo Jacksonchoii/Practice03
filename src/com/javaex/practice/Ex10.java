@@ -9,28 +9,21 @@ public class Ex10 {
 
 		Scanner sc = new Scanner(System.in);
 		
-		int n01,n02,n03,n04,n05;
+		int max = 0;
 		
 		System.out.println("숫자를 입력하세요");
-		System.out.print("숫자: ");
-		n01 = sc.nextInt();
-		System.out.print("숫자: ");
-		n02 = sc.nextInt();
-		System.out.print("숫자: ");
-		n03 = sc.nextInt();
-		System.out.print("숫자: ");
-		n04 = sc.nextInt();
-		System.out.print("숫자: ");
-		n05 = sc.nextInt();
 		
-		while(true) {
-			if(n01>n02) {
-				
+		
+			
+			for(int i=1; i<=5; i++) {
+				System.out.print("숫자: ");
+				int num = sc.nextInt();
+				if (num>=max) {
+						max = num;
+				}
 			}
-		}
-		
-		
-		
+			System.out.println("최대값은 "+max+" 입니다");
+			
 		
 		
 		
